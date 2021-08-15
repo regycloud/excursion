@@ -1,5 +1,6 @@
 * {
     background-color: black;
+    text-align: center
 }
 
 h1 {
@@ -7,14 +8,28 @@ h1 {
     font-weight: normal;
     font-size: 50px;
     color: white;
-    text-align: center;
+}
+
+h4>a {
+    color: aquamarine;
+    font-size: 16px;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 42px;
+    font-weight: 300;
+    color: white;
+
 }
 
 h3 {
-    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+    color: gray;
 }
 
-h3>a {
-    color: aquamarine;
-    font-size: 16px;
+h3.right {
+    text-align: right !important;
+    color: grey;
 }
